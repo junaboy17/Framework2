@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EISREM Test">
+
+	<listeners>
+		<listener class-name="com.eisrem.AppUtils.TestListeners"></listener>
+	</listeners>
+
+
+	<test name="Release2021">
+		<classes>
+						
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_10670_Page_Sections_Row_Q_Start_Date" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_10716_Org_Add_Identifier_Duplicate_Vendor_Code_Error_Message" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_10721_Organizations_Documents_User_Access" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_10721_People_Documents_User_Access" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_10820_Types_Planning_Option_Gone" />	
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_10953_Pages_View_Preview_TestForm" />	
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11228_Notifications_Add_Frequency_Format_Default_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11357_Lookup_Label_Sort" />
+<!-- 			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11362_Conducted_Types_Single_Submit" /> -->
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11397_Name_Fields_Popover_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11399_People_Incorrect_Dob_Dod_Entry_Error_Message" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11401_Documents_End_Date_Message" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11433_Conducted_Types_Error_Message" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11442_Notifications_Valid_User_Recipients" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11457_Notifications_Message_Criteria_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11458_Notifications_Criteria_Is_Related_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11549_Login_Change_Password_Legend_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11587_People_Add_Association_Duplicate_Error_Msg" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11591_Conducted_Types_Rqrd_Pge_No_Rqrd_Qstn" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11598_Notifications_View_Message_Content_Popup_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11598_People_Add_Association_Duplicate_Error_Msg" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11609_Notifications_Criteria_Contains_Enabled_Disabled_Checks" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11610_Notifications_Format_Options_001" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11611_Notifications_Non_Multi_Question_Answer_ID_Only" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11652_Notifications_Wording_Changes" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11653_Notifications_Format_Options_002" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11671_Conducted_Types_UserLocation_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11703_Users_No_Base_Loc_Edit_In_Edit_Mode" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11786_End_Date_Relationship_Address" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11814_ResidentialPlacement_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11836_Conducted_Types_Clear_Anchor_Check" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11848_Invalid_Username_Error_Msg" />
+<!-- 			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11849_Forgot_Password_Page_Error_Msg" /> -->
+<!-- 			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11859_Notifications_Equal_Value" /> -->
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11897_ResidentialPlacement_Date_Overlap" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11902_People_List_Sort_Order" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11926_Role_End_Date_People" />
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11951_Conducted_Type_Score_Validation" />	
+			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_12002_Org_Future_End_Date_User_Still_Active" />			
+			<class name="com.eisrem.testCases.Release2021.TC_Location_Addresses_Auto_End_Date" />		
+			
+						
+		</classes>
+		
+
+	</test>
+
+</suite>

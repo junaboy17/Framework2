@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EISREM Test">
+
+	<listeners>
+		<listener class-name="com.eisrem.AppUtils.TestListeners"></listener>
+	</listeners>
+
+
+	<test name="Regression">
+		<classes>
+		
+<!-- 			Admin -->
+			<class name="com.eisrem.testCases.Module_Admin.LogInPageTest" />
+			<class name="com.eisrem.testCases.Module_Admin.NavigationMenuBar" />
+			<class name="com.eisrem.testCases.Module_Admin.PasswordChangeTest" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_BHOPS_11029_Login_Account_Disabled" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_BHOPS_11227_Login_Bad_Credentials" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_BHOPS_11227_Login_Forgot_Password" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_BHOPS_11227_Login_Forgot_Username" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_Login_CapsLock_Check" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_Login_Error_Messages" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_Login_Timeout" />
+			<class name="com.eisrem.testCases.Module_Admin.TC_Security" />
+			
+			
+<!-- 			Administrator -->
+			<class name="com.eisrem.testCases.Module_Administrator.AdministratorMessagesPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.LookupsPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.NotificationsPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.PagesPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.RolesPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Add_View_Page_Section_Row_Question" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Administrator_Auto_Close_Success_Popup" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_BHOPS_11119_Pages_Copy_Verify_Question_Answer" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_BHOPS_11443_Notifications_Criteria_Error_Message" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_BHOPS_11462_Notifications_Occurance" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_BHOPS_11462_Pages_Edit_Question_Type" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_BHOPS_11709_My_Inbox_Date_Format" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Module_AdministratorMessages_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Module_Lookups" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Notifications_Add_Role" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Page_Test" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Pages_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Pages_DataTable_Rows" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Pages_Sections_Rows_Sort_Order" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Question_Required_Default" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Questions_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Related_Questions_Alphabetical" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Role_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Role_Inactive_Mods_Not_In_Menu" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Role_Name_Caps" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Role_Questions_Add_Role" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Row_Add" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Section_Add" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Types_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Types_Pages_Triggered_Fields" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Types_Test_Conducted_Combobox" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Types_Test_Lock_Check" />
+			<class name="com.eisrem.testCases.Module_Administrator.TC_Types_Test_Type" />
+			<class name="com.eisrem.testCases.Module_Administrator.TypesPageTest" />
+			
+			
+<!-- 			Administrator Add -->
+			<class name="com.eisrem.testCases.Module_Administrator.Add.AddAdministratorMessagePageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.Add.AddLookupsPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.Add.AddNotificationsPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.Add.AddPagesPageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.Add.AddRolePageTest" />
+			<class name="com.eisrem.testCases.Module_Administrator.Add.AddTypesPageTest" />
+			
+<!-- 			Agreement -->
+			<class name="com.eisrem.testCases.Module_Agreement.TC_Agreement_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Agreement.AgreementPageTest" />
+			
+<!-- 			Classes  -->
+			<class name="com.eisrem.testCases.Module_Classes.AddClassesPageTest" />
+			<class name="com.eisrem.testCases.Module_Classes.ClassesPageTest" />
+			<class name="com.eisrem.testCases.Module_Classes.TC_Classes_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Classes.TC_Classes_Schedule_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Classes.TC_Classes_Roster_Add_Edit_View" />
+			
+<!-- 			Conducted Types -->
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Add_002" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Add_003" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_AddEditView_001" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_AlphaOrder" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Date_Enforcement_001" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Edit_002" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Org_Loc_Dropdown" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Required_Question_Asterisk_001" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Validation_001" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Type_Validation_001" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Types_Success_Back_To_People_001" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_BHOPS_10565_Conducted_Types_Add_PopupCheck" />
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_Conducted_Types_Print_002" />	
+			<class name="com.eisrem.testCases.Module_ConductedTypes.TC_BHOPS_11350_Conducted_Types_List_Order" />
+			
+<!-- 			MyHomePage -->
+			<class name="com.eisrem.testCases.Module_MyHomePage.MyClientsManagePageTest" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.MyHomePageTest" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.MyReportsManagePageTest" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_Datepicker_Icon" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_Discard_Check" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_Inactivity_Warning" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_Login_Legend_Check" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_Menu_Tabable" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyClients_Medicaid_Check" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_Add_Client" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_Banner" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_Header_Functionality" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_Inbox_Forward_Notification" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_Inbox_Location_Conducted_Type" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_Manage" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_MyClient_Excel" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_MyClient_Validation" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomepage_MyInbox_Forward_Inactive_User" />
+			<class name="com.eisrem.testCases.Module_MyHomePage.TC_MyHomePage_No_Custom_Error_Msg" />
+			
+<!-- 			Organization -->
+			<class name="com.eisrem.testCases.Module_Organization.AddOrganizationPageTest" />
+			<class name="com.eisrem.testCases.Module_Organization.LocationPageTest" />
+			<class name="com.eisrem.testCases.Module_Organization.OrganizationPageTest" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Associations_Org_Dropdown_Active_Locations" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_BHOPS_10742_Organization_ServicesSpecialties_View_001" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_BHOPS_11031_Org_Location_ServicePop_End_Date" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_BHOPS_11224_Org_Add_Identifier_Duplicate_Error_Message" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_BHOPS_11358_Location_Addresses_Auto_End_Date" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_BHOPS_11465_Organization_User_Verify_End_Date" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_BHOPS_6269_Organization_Add_ServicesSpecialties_Duplicate_Error_Msg" />	
+			<class name="com.eisrem.testCases.Module_Organization.TC_Location_Add" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Documents_Access" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Documents_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Documents_Excel_001" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Documents_ServicePop_Check_001" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Identifiers_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Identifiers_Edit_With_Service_Pop_001" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_Add_003" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_Address_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_Address_Date_Check" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_Anchor_Filter" />	
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_BaseLoc_NoAddLoc" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_End_Date" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_Field_TTY_Check" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Location_Loading_Queries" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_LocDropdown_BaseLoc_First" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Services_TryResources_001" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_ServicesSpecialties_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Users_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Users_End_Date_Children_Data" />
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Users_End_Date_Location" />
+<!-- 			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Users_Independent_Updates" /> -->
+			<class name="com.eisrem.testCases.Module_Organization.TC_Organization_Users_Verify_Locations_001" />
+<!-- 			<class name="com.eisrem.testCases.Module_Organization.TC_User_Expected_User_Count" /> -->
+			<class name="com.eisrem.testCases.Module_Organization.TC_User_Staff_Active_Organization_End_Date" />
+<!-- 			<class name="com.eisrem.testCases.Module_Organization.TC_Users_ActiveStaff_Confirmation_001" /> -->
+<!-- 			<class name="com.eisrem.testCases.Module_Organization.TC_Users_Change_Password_001" /> -->
+						
+			
+<!-- 			People -->
+			<class name="com.eisrem.testCases.Module_People.DemographicsPageTest" />
+			<class name="com.eisrem.testCases.Module_People.LanguagePageTest" />
+			<class name="com.eisrem.testCases.Module_People.People_Add_Edit_View_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_Address_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_Associations_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_Classes_Add_Edit_View_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_CritInfo_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_Diagnosis_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_Documents_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_EnrollmentStatus_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_LivingArangement_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_OtherNames_Test" />
+			<class name="com.eisrem.testCases.Module_People.People_Relationships_Test" />
+			<class name="com.eisrem.testCases.Module_People.PeoplePageTest" />
+			<class name="com.eisrem.testCases.Module_People.RaceEthnicityPageTest" />
+			<class name="com.eisrem.testCases.Module_People.ResidentialPlacementPageTest" />
+			<class name="com.eisrem.testCases.Module_People.TC_Address_Zipcode_Ascending_001" />
+			<class name="com.eisrem.testCases.Module_People.TC_BHOPS_10664_People_List_Sort_Order" />
+			<class name="com.eisrem.testCases.Module_People.TC_BHOPS_10817_People_Identifier_Uppercase_MECare" />
+			<class name="com.eisrem.testCases.Module_People.TC_BHOPS_10819_People_Associations_Org_Dropdown_Base_Loc" />
+			<class name="com.eisrem.testCases.Module_People.TC_BHOPS_11224_People_Add_Identifier_Duplicate_Error_Message" />
+			<class name="com.eisrem.testCases.Module_People.TC_BHOPS_11402_People_001" />
+			<class name="com.eisrem.testCases.Module_People.TC_Combobox" />
+			<class name="com.eisrem.testCases.Module_People.TC_ErrorChk_Existing_Types_001" />
+			<class name="com.eisrem.testCases.Module_People.TC_People_Identifiers_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_People.TC_People_Identifiers_Medicaid_Change_Without_Event_Listener" />
+			<class name="com.eisrem.testCases.Module_People.TC_People_Identifiers_Medicaid_Format_Error_Message" />
+			
+			
+<!-- 			QuickLinks -->
+			<class name="com.eisrem.testCases.Module_QuickLinks.AddQuickLinksPageTest" />
+			<class name="com.eisrem.testCases.Module_QuickLinks.QuickLinksPageTest" />
+			<class name="com.eisrem.testCases.Module_QuickLinks.TC_Links_Add_Edit_View" />
+			<class name="com.eisrem.testCases.Module_QuickLinks.TC_Links_Check_URL_300_Chars_Max_Length" />
+			<class name="com.eisrem.testCases.Module_QuickLinks.TC_Links_Service_Pop_Add_Edit_View" />
+			
+<!-- 			Reports -->
+			<class name="com.eisrem.testCases.Module_Reports.ReportsPageTest" />
+			
+<!-- 			Module Search -->
+			<class name="com.eisrem.testCases.Module_Search.SearchPageTest" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_Button_Functionality" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_Conducted_Type" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_Location" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_MaxResults" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_Organization" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_People_Org" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_Trimed_Whitespace" />
+			<class name="com.eisrem.testCases.Module_Search.TC_Search_User" />
+						
+		</classes>
+
+	</test>
+
+</suite>

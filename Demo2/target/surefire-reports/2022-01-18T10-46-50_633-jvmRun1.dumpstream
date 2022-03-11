@@ -1,0 +1,85 @@
+# Created at 2022-01-18T10:47:09.325
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2022-01-18T10:47:20.006
+Unexpected IOException: 8,1,com.eisrem.testCases.Module_Admin.LogInPageTest,UsernameCheck(com.eisrem.testCases.Module_Admin.LogInPageTest),null,Test Failed. Error occured while trying to complete all steps:  expected [true] but found [false],null,Test Failed. Error occured while trying to complete all steps:  expected [true] but found [false],LogInPageTest.UsernameCheck:43 Test Failed. Error occured while trying to complete all steps:  expected [true] but found [false],java.lang.AssertionError: Test Failed. Error occured while trying to complete all steps:  expected [true] but found [false]\000A\0009at com.eisrem.testCases.Module_Admin.LogInPageTest.UsernameCheck(LogInPageTest.java:43)\000A
+
+
+# Created at 2022-01-18T10:47:32.042
+Unexpected IOException: 8,1,com.eisrem.testCases.Module_Admin.LogInPageTest,tearDown(com.eisrem.testCases.Module_Admin.LogInPageTest),null,chrome not reachable\000A  (Session info: MicrosoftEdge=96.0.1054.62)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'OIT-CT1ALTMARIF'\002C ip: '172.21.145.90'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [804846268177fb7c0cd859b74bd2c1bb\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 96.0.1054.62\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:64600}\002C msedge: {msedgedriverVersion: 96.0.1054.72 (166afff201f44...\002C userDataDir: C:\005CUsers\005CMIAH~1.ARI\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:64600/devtoo...\002C se:cdpVersion: 96.0.1054.62\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 804846268177fb7c0cd859b74bd2c1bb,null,chrome not reachable\000A  (Session info: MicrosoftEdge=96.0.1054.62)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'OIT-CT1ALTMARIF'\002C ip: '172.21.145.90'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [804846268177fb7c0cd859b74bd2c1bb\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 96.0.1054.62\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:64600}\002C msedge: {msedgedriverVersion: 96.0.1054.72 (166afff201f44...\002C userDataDir: C:\005CUsers\005CMIAH~1.ARI\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:64600/devtoo...\002C se:cdpVersion: 96.0.1054.62\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 804846268177fb7c0cd859b74bd2c1bb,LogInPageTest>LogInPage.tearDown:38 \00BB WebDriver chrome not reachable\000A  (Sessio...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: MicrosoftEdge=96.0.1054.62)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'OIT-CT1ALTMARIF'\002C ip: '172.21.145.90'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [804846268177fb7c0cd859b74bd2c1bb\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 96.0.1054.62\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:64600}\002C msedge: {msedgedriverVersion: 96.0.1054.72 (166afff201f44...\002C userDataDir: C:\005CUsers\005CMIAH~1.ARI\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:64600/devtoo...\002C se:cdpVersion: 96.0.1054.62\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 804846268177fb7c0cd859b74bd2c1bb\000A
+
+
+# Created at 2022-01-18T10:47:32.046
+Unexpected IOException: 9,1,com.eisrem.testCases.Module_Admin.LogInPageTest,testSetUp1(com.eisrem.testCases.Module_Admin.LogInPageTest),null,null,null
+
+
+# Created at 2022-01-18T10:47:32.049
+Unexpected IOException: 5,1,com.eisrem.testCases.Module_Admin.LogInPageTest,PasswordCheck(com.eisrem.testCases.Module_Admin.LogInPageTest),com.eisrem.testCases.Module_Admin.LogInPageTest,null,null
+
+
+# Created at 2022-01-18T10:47:32.052
+Unexpected IOException: 9,1,com.eisrem.testCases.Module_Admin.LogInPageTest,PasswordCheck(com.eisrem.testCases.Module_Admin.LogInPageTest),null,chrome not reachable\000A  (Session info: MicrosoftEdge=96.0.1054.62)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'OIT-CT1ALTMARIF'\002C ip: '172.21.145.90'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [804846268177fb7c0cd859b74bd2c1bb\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 96.0.1054.62\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:64600}\002C msedge: {msedgedriverVersion: 96.0.1054.72 (166afff201f44...\002C userDataDir: C:\005CUsers\005CMIAH~1.ARI\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:64600/devtoo...\002C se:cdpVersion: 96.0.1054.62\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 804846268177fb7c0cd859b74bd2c1bb,null
+
+
+# Created at 2022-01-18T10:47:32.054
+Unexpected IOException: 9,1,com.eisrem.testCases.Module_Admin.LogInPageTest,tearDown(com.eisrem.testCases.Module_Admin.LogInPageTest),null,null,null
+
+
+# Created at 2022-01-18T10:47:32.056
+Unexpected IOException: 9,1,com.eisrem.testCases.Module_Admin.LogInPageTest,testSetUp1(com.eisrem.testCases.Module_Admin.LogInPageTest),null,null,null
+
+
+# Created at 2022-01-18T10:47:32.058
+Unexpected IOException: 5,1,com.eisrem.testCases.Module_Admin.LogInPageTest,LogInLogOutTest(com.eisrem.testCases.Module_Admin.LogInPageTest),com.eisrem.testCases.Module_Admin.LogInPageTest,null,null
+
+
+# Created at 2022-01-18T10:47:32.060
+Unexpected IOException: 9,1,com.eisrem.testCases.Module_Admin.LogInPageTest,LogInLogOutTest(com.eisrem.testCases.Module_Admin.LogInPageTest),null,chrome not reachable\000A  (Session info: MicrosoftEdge=96.0.1054.62)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'OIT-CT1ALTMARIF'\002C ip: '172.21.145.90'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [804846268177fb7c0cd859b74bd2c1bb\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 96.0.1054.62\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:64600}\002C msedge: {msedgedriverVersion: 96.0.1054.72 (166afff201f44...\002C userDataDir: C:\005CUsers\005CMIAH~1.ARI\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:64600/devtoo...\002C se:cdpVersion: 96.0.1054.62\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 804846268177fb7c0cd859b74bd2c1bb,null
+
+
+# Created at 2022-01-18T10:47:32.062
+Unexpected IOException: 9,1,com.eisrem.testCases.Module_Admin.LogInPageTest,tearDown(com.eisrem.testCases.Module_Admin.LogInPageTest),null,null,null
+
+
+# Created at 2022-01-18T10:47:32.066
+Unexpected IOException with stream:  INFO [main] (MainPage.java:19)- Begin Test Class: PasswordChangeTest
+
+
+# Created at 2022-01-18T10:47:32.068
+Unexpected IOException with stream:  INFO [main] (MainPage.java:20)- Tue Jan 18 10:47:32 EST 2022
+
+
+# Created at 2022-01-18T10:47:32.070
+Unexpected IOException with stream: 
+
+
+# Created at 2022-01-18T10:47:32.072
+Unexpected IOException with stream:  INFO [main] (PasswordChange.java:23)- Begin Test : passwordChangeTitle
+
+
+# Created at 2022-01-18T10:47:32.087
+Unexpected IOException with stream:  INFO [main] (WebDriverManager.java:605)- Using msedgedriver 96.0.1054.72 (resolved driver for Edge 96)
+
+
+# Created at 2022-01-18T10:47:32.112
+Unexpected IOException with stream:  INFO [main] (WebDriverManager.java:661)- Exporting webdriver.edge.driver as C:\Users\Miah.Arif\.cache\selenium\msedgedriver\win64\96.0.1054.72\msedgedriver.exe
+
+
+# Created at 2022-01-18T10:47:32.124
+Unexpected IOException with stream:  INFO [main] (DriverFactory.java:103)- ***********************************************Opening Up Edge Browser***********************************************
+
+
+# Created at 2022-01-18T10:47:51.533
+Unexpected IOException: 5,1,com.eisrem.testCases.Module_Admin.PasswordChangeTest,passwordChangeTitle(com.eisrem.testCases.Module_Admin.PasswordChangeTest),com.eisrem.testCases.Module_Admin.PasswordChangeTest,null,null
+
+
+# Created at 2022-01-18T10:47:51.536
+Unexpected IOException with stream:  INFO [main] (PasswordChangeTest.java:17)- Verifying Password Change title text
+
+

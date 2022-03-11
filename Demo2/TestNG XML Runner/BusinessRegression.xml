@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EISREM Test">
+
+	<listeners>
+		<listener class-name="com.eisrem.AppUtils.TestListeners"></listener>
+	</listeners>
+
+
+	<test name="Business">
+		<classes>
+		
+<!-- 		Administrator -->
+			<class name="com.eisrem.testCases.Business.Module_Administrator.Admin_Administrator_Messages" /> 
+			<class name="com.eisrem.testCases.Business.Module_Administrator.Admin_Look_Up_Tab" />
+			<class name="com.eisrem.testCases.Business.Module_Administrator.Admin_Notifications_Test" /> 
+			<class name="com.eisrem.testCases.Business.Module_Administrator.Admin_Pages_Test" /> 
+			<class name="com.eisrem.testCases.Business.Module_Administrator.Admin_Roles" /> 
+			<class name="com.eisrem.testCases.Business.Module_Administrator.Admin_Types_Test" /> 
+			
+			
+<!-- 			Assessment -->
+			<class name="com.eisrem.testCases.Business.Module_Assessment.ProviderUserAssessment_Add_Edit_View" />
+			
+<!-- 			MyHomePage -->
+			<class name="com.eisrem.testCases.Business.Module_MyHomePage.ProviderUserMyClientsAddRemove" />
+			
+<!-- 			Notes -->
+			<class name="com.eisrem.testCases.Business.Module_Notes.ProviderUserNotes_Add_Edit_View" />
+			
+<!-- 			Organization -->
+			<class name="com.eisrem.testCases.Business.Module_Organization.Business_Add_Org" />
+			<class name="com.eisrem.testCases.Business.Module_Organization.Add_Org_Staff" />
+			<class name="com.eisrem.testCases.Business.Module_Organization.Organization_Access_Check" />
+			<class name="com.eisrem.testCases.Business.Module_Organization.Org_End_Dating" />
+			<class name="com.eisrem.testCases.Business.Module_Organization.Edit_Org" />
+			
+<!-- 			People -->
+			<class name="com.eisrem.testCases.Business.Module_People.Date_Test" />
+			<class name="com.eisrem.testCases.Business.Module_People.Duplicate_Entry" />
+			<class name="com.eisrem.testCases.Business.Module_People.Enrollment_Add_Edit_End" />
+			<class name="com.eisrem.testCases.Business.Module_People.Forgot_Field" />
+			<class name="com.eisrem.testCases.Business.Module_People.OtherName_Add_Edit_End" />
+			<class name="com.eisrem.testCases.Business.Module_People.People_Access_Check" />
+			<class name="com.eisrem.testCases.Business.Module_People.People_Add" />
+			<class name="com.eisrem.testCases.Business.Module_People.People_Associations_Fields_Required" />
+			<class name="com.eisrem.testCases.Business.Module_People.People_Name_Caps" />
+			<class name="com.eisrem.testCases.Business.Module_People.People_Diagnosis" />
+			<class name="com.eisrem.testCases.Business.Module_People.People_Residential_Placement" />
+			<class name="com.eisrem.testCases.Business.Module_People.Relationship_Add_Edit_End" />
+			<class name="com.eisrem.testCases.Business.Module_People.TC_People_Associations_Inactive_Users" />
+			
+<!-- 			QuickLinks -->
+			<class name="com.eisrem.testCases.Business.Module_QuickLinks.Quick_Links_Access_Check" />
+			
+<!-- 			ReportableEvents -->
+			<class name="com.eisrem.testCases.Business.Module_ReportableEvents.ReportableEvents_Add_Edit_View" />
+		</classes>
+
+	</test>
+
+</suite>

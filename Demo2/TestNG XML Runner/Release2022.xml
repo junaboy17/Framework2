@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EISREM Test">
+
+	<listeners>
+		<listener class-name="com.eisrem.AppUtils.TestListeners"></listener>
+	</listeners>
+
+
+	<test name="Release2022">
+		<classes>
+						
+			<class name="com.eisrem.testCases.Release2022.TC_11786_End_Date_Relationship_Address" />		
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11356_Sort_Question_Answers_Alpha" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11575_Pages_Questions_Answer_Disabled" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11681_Org_Add_Identifier_Duplicate_Error_Message" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11799_Search_Location_ID" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11809_People_Add_Association_Org_Error_Message" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11850_Related_Question_Restriction" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11903_Documents_End_Date_Restriction" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11916_People_Diagnosis_Active_Entry" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11921_Pages_Question_Lock_Form" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12063_Org_Combobox_Restrict_By_SP" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12145_Conducted_Type_Score_Validation" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12189_Document_Search_Conducted_Type" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12323_Location_Addresses_Auto_End_Date_SameType" />					
+						
+		</classes>
+		
+
+	</test>
+
+</suite>

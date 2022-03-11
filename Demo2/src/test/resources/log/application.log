@@ -1,0 +1,8 @@
+2022-03-11 16:14:55,656 - Selenium -INFO - Begin Test Class: TC_BHOPS_11921_Pages_Question_Lock_Form
+2022-03-11 16:14:55,660 - Selenium -INFO - Fri Mar 11 16:14:55 EST 2022
+2022-03-11 16:14:55,672 - Selenium -INFO - Begin Test : TC_Pages_Question_Lock_Form
+2022-03-11 16:14:56,480 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+2022-03-11 16:14:56,514 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Miah.Arif\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+2022-03-11 16:14:56,577 - Selenium -INFO - ***********************************************Opening Up Chrome Browser***********************************************5
+2022-03-11 16:15:11,875 - Selenium -INFO - Verifying lock form functionality
+2022-03-11 16:16:40,897 - Selenium -INFO - Adding Page to type

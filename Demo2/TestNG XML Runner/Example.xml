@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EISREM Test">
+
+	<listeners>
+		<listener class-name="com.eisrem.AppUtils.TestListeners"></listener>
+	</listeners>
+
+
+	<test name="Regression">
+		<classes>
+<!-- 			<class name="com.eisrem.testCases.Module_Admin.LogInPageTest" /> -->
+<!-- 			<class name="com.eisrem.testCases.Business.Module_People.Date_Test" /> -->
+<!-- 			<class name="com.eisrem.testCases.Release2021.TC_BHOPS_11786_End_Date_Relationship_Address" /> -->
+<!-- 			<class name="com.eisrem.testCases.Module_MyHomePage.MyClientsManagePageTest" /> -->
+
+		<class name="com.eisrem.testCases.Business.Module_Administrator.Admin_Administrator_Messages" />
+		<class name="com.eisrem.testCases.Business.Module_Organization.Org_End_Dating" />
+			
+<!-- 			<class name="com.eisrem.testCases.SampleTest" /> -->
+		</classes>
+	</test>
+
+</suite>
